@@ -34,6 +34,50 @@ input, a {
   outline: none;
 }
 
+@-webkit-keyframes xuanzhuan {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+@keyframes xuanzhuan {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(720deg);
+            transform: rotate(720deg);
+  }
+}
+
+@-webkit-keyframes xuanzhuanyizhou {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@keyframes xuanzhuanyizhou {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
 .cred {
   color: red;
 }
@@ -275,4 +319,150 @@ input, a {
   text-indent: 0;
   margin-left: 2px;
   font-style: normal;
+}
+
+/*------------------------------以上是header-------------------------------------*/
+.nav-wrap {
+  background: #fff;
+  padding-top: 10px;
+  height: 34px;
+  margin-top: -10px;
+}
+
+.nav-wrap .nav {
+  width: 1200px;
+  height: 34px;
+  margin: 0 auto;
+}
+
+.nav-wrap .nav .nav-left {
+  float: left;
+  width: 228px;
+  height: 34px;
+  line-height: 32px;
+  color: #FFF;
+  font-size: 16px;
+  text-align: center;
+}
+
+.nav-wrap .nav .nav-left .nav-dog {
+  margin-top: 34px;
+  width: 228px;
+  height: 358px;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 {
+  background-color: #f5f5f5;
+  width: 228px;
+  height: 119px;
+  position: relative;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 .p-link {
+  display: inline-block;
+  width: 108px;
+  height: 28px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #aeaeae;
+  border-radius: 3px;
+  color: #aeaeae;
+  margin: 5px 0 0  70px;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 .p-link:hover {
+  border: 1px solid #999;
+  background: #e5e5e5;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 .c999 {
+  line-height: 24px;
+  padding-bottom: 4px;
+  color: #333;
+  margin: 23px 0 0  70px;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 .dog-pic {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-top: 27px;
+  background: url(../img/new_petcate.png);
+  position: absolute;
+  left: 20px;
+}
+
+.nav-wrap .nav .nav-left .nav-1 {
+  float: left;
+  width: 112px;
+  height: 32px;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  color: #666;
+  cursor: pointer;
+}
+
+.nav-wrap .nav .nav-left .nav-1:hover .cate1 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav-wrap .nav .nav-left .nav-1 .cate1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -2px;
+  background: url(../img/bg2.png);
+  margin-left: 5px;
+  width: 16px;
+  height: 13px;
+  background-position: -17px -1257px;
+}
+
+.nav-wrap .nav .nav-right li {
+  float: left;
+  display: inline;
+  z-index: 102;
+  position: relative;
+}
+
+.nav-wrap .nav .nav-right li a {
+  display: inline;
+  line-height: 34px;
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+  padding: 0 25px;
+  text-decoration: none;
+  outline: 0;
+  height: 34px;
+}
+
+.nav-wrap .nav .nav-right li a:hover {
+  color: #459d36;
+}
+
+.nav-wrap .nav .nav-right li a:hover b {
+  -webkit-animation: xuanzhuan 0.2s;
+          animation: xuanzhuan 0.2s;
+}
+
+.nav-wrap .nav .nav-right li a b {
+  display: inline-block;
+  width: 13px;
+  height: 17px;
+  background: url(../img/bg2.png) -35px -1280px;
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-right: 6px;
+}
+
+/*------------------------------以上是nav-------------------------------------*/
+.lunbo-wrap {
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
 }
