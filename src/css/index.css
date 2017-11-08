@@ -1,5 +1,9 @@
 body {
   background: red;
   font-size: 12px;
+  background: red;
+}
+
+body li {
   background: blue;
 }
