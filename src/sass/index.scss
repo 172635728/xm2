@@ -1,0 +1,25 @@
+body{
+	font-size:10px;
+	div{
+		color:red;
+		p{
+			text-align:center;
+			&{
+				background:red;
+			}
+		}
+		.second:hover{
+			font-family:'Microsoft Yahei';
+		}
+	}
+	.container{
+	    display: -webkit-flex;
+	    display: -ms-flexbox;
+	    display: flex;
+	    font-size:20px;
+	}
+	.barginMoney{
+		color:red;
+	}
+}
+

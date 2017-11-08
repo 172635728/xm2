@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				display: inline;
+				background: black;
+				color: white;
+				list-style: none;
+			}
+			li:after{
+				content: '.';
+				visibility: hidden;
+				display: block;
+			}
+		</style>
+		<script src="js/jquery-2.2.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<a href="入门栗子.html">入门例子</a>
+		<ul>
+			<li>
+				<span class="barginMoney">承诺合同金额￥<i>30,000</i></span>
+			</li>
+			<li>
+				<span class="barginMoney">承诺额￥<i>30,000</i></span>
+			</li>
+			<li>
+				<span class="barginMoney">承诺合同金额￥<i>30,000</i></span>
+			</li>
+			<li>
+				<span class="barginMoney">承诺合￥<i>30,000</i></span>
+			</li>
+		</ul>
+		<script type="text/javascript">
+			$(function(){
+				$(document).on('load')
+			})
+		</script>
+	</body>
+</html>

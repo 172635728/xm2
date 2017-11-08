@@ -1,0 +1,19 @@
+body {
+  margin: 0 auto;
+}
+
+body div.outer {
+  border: 5px solid red;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+body div.outer #mate {
+  padding: 1 15px;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(top, red, green, yellow);
+  background: linear-gradient(to bottom, red, green, yellow);
+  display: -webkit-box;
+}

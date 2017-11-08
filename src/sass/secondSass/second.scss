@@ -1,0 +1,16 @@
+body{
+	margin:0 auto;
+	div.outer{
+		border:5px solid red;
+		margin-top:20px;
+		margin-bottom:40px;
+		margin-right:10px;
+		margin-left:20px;
+		#mate{
+			padding:1 15px;
+			border-radius:50%;
+			background:linear-gradient(to bottom,red,green,yellow);
+			display:-webkit-box;
+		}
+	}
+}
