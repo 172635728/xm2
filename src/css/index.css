@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend {
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend, span, a, label {
   margin: 0;
   padding: 0;
 }
@@ -34,22 +34,245 @@ input, a {
   outline: none;
 }
 
+.cred {
+  color: red;
+}
+
 .hover-blue:hover {
   color: blue;
+}
+
+.hover-ff6600 {
+  color: #444444;
 }
 
 .hover-ff6600:hover {
   color: #ff6600;
 }
 
+.mr-12 {
+  margin-right: 12px;
+}
+
+.mr-14 {
+  margin-right: 14px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
 .head-wrap {
   width: 100%;
-  height: 28px;
+  height: 29px;
   background: #f5f5f5;
 }
 
 .head-wrap .head {
   width: 1200px;
   margin: 0 auto;
-  line-height: 28px;
+  margin-right: 31.5px;
+  line-height: 29px;
+}
+
+.head-wrap .head .head-right {
+  float: right;
+  margin-right: 5px;
+}
+
+.head-wrap .head .head-right .mypet {
+  position: relative;
+}
+
+.head-wrap .head .head-right .mypet ul {
+  position: absolute;
+  clean: both;
+  top: 29px;
+  left: -10px;
+  display: none;
+  list-style-type: square;
+}
+
+.head-wrap .head .head-right .mypet ul li {
+  padding-left: 5px;
+  width: 103px;
+  background: #fff;
+  height: 25px;
+}
+
+.head-wrap .head .head-right .mypet:hover ul {
+  display: block;
+}
+
+.head-wrap .head .head-right .mypet:hover ul li:hover {
+  color: blue;
+}
+
+.head-wrap .head * {
+  float: left;
+}
+
+.head-wrap .head img {
+  float: left;
+}
+
+.head-wrap .head .wtfk {
+  color: #ff0000;
+}
+
+.head-wrap .head .wtfk:hover {
+  color: blue;
+}
+
+/*------------------------------以上是head-------------------------------------*/
+.celan {
+  width: 35px;
+  height: 100%;
+  background: #444444;
+  position: fixed;
+  right: 0;
+}
+
+/*------------------------------以上是侧栏-------------------------------------*/
+.banner-wrap {
+  overflow: hidden;
+  width: 100%;
+  height: 83px;
+}
+
+.banner-wrap .banner {
+  display: block;
+  margin: 0 auto;
+  margin-right: 31.5px;
+  width: 1200px;
+}
+
+/*------------------------------以上是banner-------------------------------------*/
+.header-wrap {
+  width: 100%;
+  height: 110px;
+  padding-top: 10px;
+}
+
+.header-wrap .header {
+  width: 1200px;
+  height: 94px;
+  margin: 0 auto;
+}
+
+.header-wrap .header .logo {
+  width: 268px;
+  height: 94px;
+  float: left;
+}
+
+.header-wrap .header .logo .lo {
+  margin-top: 7px;
+  display: inline-block;
+  width: 268px;
+  height: 94px;
+  background: url(../img/epet-logo.png) no-repeat 0 -12px;
+}
+
+.header-wrap .header .search {
+  float: left;
+  width: 498px;
+  height: 71px;
+  margin: 23px 0 0 33px;
+}
+
+.header-wrap .header .search .search-form {
+  width: 498px;
+  height: 34px;
+}
+
+.header-wrap .header .search .search-form input {
+  border: #459d36 solid 2px;
+  background: 0 0;
+  padding: 0 5px 0 15px;
+  width: 382px;
+  height: 30px;
+  outline: 0;
+  line-height: 30px;
+  font-size: 14px;
+  float: left;
+}
+
+.header-wrap .header .search .search-form button {
+  border: 0;
+  width: 73px;
+  height: 34px;
+  vertical-align: top;
+  cursor: pointer;
+  background-color: #459d36;
+  color: #FFF;
+  font-size: 14px;
+}
+
+.header-wrap .header .search .keyword {
+  margin: 10px 0;
+  width: 498px;
+  height: 17px;
+  overflow: hidden;
+}
+
+.header-wrap .header .search .keyword span {
+  color: #999;
+  margin: 0 6.5px;
+}
+
+.header-wrap .header .search .keyword label {
+  float: left;
+  display: inline;
+  white-space: nowrap;
+  color: #999;
+}
+
+.header-wrap .header .search .keyword a {
+  color: #999;
+  font-size: 12px;
+}
+
+.header-wrap .header .search .keyword a:hover {
+  color: #444;
+}
+
+.header-wrap .header .phone {
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 25px;
+  width: 220px;
+  height: 22px;
+  margin: 30px 0 0 40px;
+  float: left;
+  background: url(../img/bg01.png) no-repeat;
+  background-position: 0 -521px;
+}
+
+.header-wrap .header .go-buy {
+  margin: 23px 0 0;
+  width: 130px;
+  height: 39px;
+  text-align: center;
+  text-indent: 2em;
+  background: url(../img/shopping-cart.gif) no-repeat;
+  float: right;
+}
+
+.header-wrap .header .go-buy a {
+  line-height: 39px;
+}
+
+.header-wrap .header .go-buy a em {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -4px;
+  color: #f40;
+  text-indent: 0;
+  margin-left: 2px;
+  font-style: normal;
 }
