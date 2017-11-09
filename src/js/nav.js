@@ -14,15 +14,19 @@
    });
    $('.list1').eq(0).mouseenter(function() {
      $('.nav-gouliang').eq(0).css('display', 'block').css('background', '#fff').css('z-index', '999');
-     console.log(3);
+
+   });
+   $('.list1').eq(0).mouseleave(function() {
+     $('.nav-gouliang').eq(0).hide();
+
    });
    $('.nav-gouliang').eq(0).mouseenter(function() {
      $('.nav-gouliang').eq(0).show().css('background', '#fff');
-     console.log(2);
+
    });
    $('.nav-gouliang').eq(0).mouseleave(function() {
      $('.nav-gouliang').eq(0).hide();
-     console.log(1);
+
    });
 
 

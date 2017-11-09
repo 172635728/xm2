@@ -114,7 +114,7 @@ function jdlunbo(className) {
 
   function showPage() {
 
-    var arrbgs = new Array("#F14764", "#7600C4", "#FF627A", "#7D47E5", "#D7203F", "#B02FEE", "#2F023D", "#2E023D");
+    var arrbgs = new Array("#2D013C", "#9438E1", "#D61F3E", "#2F023D", "#2F023D", "#2E023D", "#2F023D", "#2E023D");
     for (var i = 0; i < pages.length; i++) {
       pages[i].style.background = '#999999';
 
