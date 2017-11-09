@@ -343,9 +343,174 @@ input, a {
   color: #FFF;
   font-size: 16px;
   text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang {
+  display: none;
+  position: relative;
+  z-index: 99999;
+  padding: 10px;
+  width: 570px;
+  float: left;
+  min-height: 358px;
+  border: 1px solid #62a727;
+  border-top: none;
+  width: 570px;
+  position: absolute;
+  top: 36px;
+  left: 228px;
+  line-height: 30px;
+  z-index: -99;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang .mid-list {
+  float: left;
+  width: 390px;
+  padding-top: 12px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang .mid-list a {
+  display: inline-block;
+  padding: 0 5px 0 7px;
+  border-left: 1px #ddd solid;
+  height: 16px;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang .mid-list a:hover {
+  color: blue;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang .mid-head {
+  float: left;
+  width: 150px;
+  text-align: right;
+  padding-right: 10px;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang .mid-head a {
+  color: green;
+  font-weight: 700;
+  font-size: 12px;
+  float: left;
+  line-height: 42px;
+  margin-left: 75px;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang .mid-head img {
+  line-height: 42px;
+  vertical-align: middle;
+  height: 25px;
+  width: 25px;
+  float: left;
+  margin-top: 10px;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang i {
+  height: 35px;
+  float: left;
+  width: 35px;
+  background: url(../img/bg01.png) -470px -240px no-repeat;
+  margin-right: 30px;
+  z-index: -99;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang .catepic {
+  float: left;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang .ctitle {
+  padding-left: 10px;
+  height: 50px;
+  font-size: 16px;
+  padding-left: 10px;
+  line-height: 35px;
+  border-bottom: 1px dashed #000;
+}
+
+.nav-wrap .nav .nav-left .nav-gouliang .ctitle a：hover {
+  color: blue;
+}
+
+.nav-wrap .nav .nav-left .nav-sp {
+  width: 228px;
+  position: absolute;
+  top: 34px;
+  left: 0;
+  height: 360px;
+  z-index: 999999;
+}
+
+.nav-wrap .nav .nav-left .nav-sp li {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  height: 50px;
+  display: block;
+  width: 100%;
+  float: left;
+  background: url(../img/menuLine1.png) 50% bottom no-repeat;
+  font-size: 12px;
+  line-height: 50px;
+  margin-left: 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  z-index: 99;
+  position: relative;
+}
+
+.nav-wrap .nav .nav-left .nav-sp li:hover {
+  border-right: 3px solid #fff;
+  border-top: 1px solid #85bc56;
+  border-bottom: 1px solid #85bc56;
+}
+
+.nav-wrap .nav .nav-left .nav-sp li h3 {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background-position: right -1206px;
+  background-repeat: no-repeat;
+  padding-left: 16px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fcfcfc;
+}
+
+.nav-wrap .nav .nav-left .nav-sp li h3:hover {
+  margin-left: 10px;
+}
+
+.nav-wrap .nav .nav-left .nav-sp li h3 i {
+  display: inline-block;
+  color: #999;
+  width: 40px;
+  margin-left: 4px;
+  font-style: normal;
+  font-size: 10px;
+}
+
+.nav-wrap .nav .nav-left .nav-sp li h3 .nav-logo {
+  width: 18px;
+  height: 16px;
+  background: url(../img/menuIco1.png) 100% 0 no-repeat;
+  display: inline-block;
+  float: left;
+  margin-top: 17px;
+  margin-right: 8px;
+  background-position: 100% 1px;
 }
 
 .nav-wrap .nav .nav-left .nav-dog {
+  position: relative;
+  z-index: 9999999;
   margin-top: 34px;
   width: 228px;
   height: 358px;
@@ -357,7 +522,19 @@ input, a {
   height: 119px;
   position: relative;
   font-size: 12px;
-  overflow: hidden;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 .gouce {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  position: absolute;
+  top: 0px;
+  z-index: -99;
+  left: 0;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1:hover .gouce {
+  left: -27px;
 }
 
 .nav-wrap .nav .nav-left .nav-dog .nav-dog-1 .p-link {
@@ -375,6 +552,28 @@ input, a {
 .nav-wrap .nav .nav-left .nav-dog .nav-dog-1 .p-link:hover {
   border: 1px solid #999;
   background: #e5e5e5;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 #pinkmao {
+  border: 1px solid #e74085;
+  color: #e74085;
+  background: #fff;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 #pinkmao:hover {
+  color: #fff;
+  background: #e74085;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 #bluemao {
+  border: 1px solid #059ee0;
+  color: #059ee0;
+  background: #fff;
+}
+
+.nav-wrap .nav .nav-left .nav-dog .nav-dog-1 #bluemao:hover {
+  color: #fff;
+  background: #059ee0;
 }
 
 .nav-wrap .nav .nav-left .nav-dog .nav-dog-1 .c999 {
@@ -465,4 +664,85 @@ input, a {
   width: 100%;
   height: 360px;
   overflow: hidden;
+  background: red;
+  position: relative;
+  z-index: 1;
 }
+
+.lunbo-wrap .lunbo {
+  width: 1200px;
+  height: 360px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 10000;
+}
+
+.lunbo-wrap .lunbo .lunbo-left {
+  background: yellow;
+  width: 770px;
+  height: 360px;
+  position: absolute;
+  left: 228px;
+  z-index: 10000;
+}
+
+.lunbo-wrap .lunbo .lunbo-left .item li {
+  list-style: none;
+  width: 770px;
+  height: 360px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.lunbo-wrap .lunbo .lunbo-left img {
+  width: 100%;
+  height: 100%;
+}
+
+.lunbo-wrap .lunbo .lunbo-left .leftBtn {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.lunbo-wrap .lunbo .lunbo-left .rightBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.lunbo-wrap .lunbo .lunbo-left .mybox {
+  position: relative;
+  width: 770px;
+  height: 360px;
+}
+
+.lunbo-wrap .lunbo .lunbo-left .box {
+  position: relative;
+  width: 770px;
+  height: 360px;
+}
+
+.lunbo-wrap .lunbo .lunbo-left .page {
+  position: absolute;
+  bottom: 6px;
+  left: 256px;
+  height: 30px;
+  /*width: 300px;*/
+}
+
+.lunbo-wrap .lunbo .lunbo-left .page li {
+  float: left;
+  width: 21px;
+  height: 21px;
+  list-style: none;
+  background: blue;
+  border-radius: 50%;
+  line-height: 21px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+/*------------------------------以上是以上是lunbo-------------------------------------*/
