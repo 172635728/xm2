@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/index.css">
+		<link rel="stylesheet" href="../css/cart.css">
+		<script src="../js/jquery-2.2.3.min.js"></script>
+		<script src="../js/cookie.js"></script>
+		<script src="../js/cart.js"></script>
+		
+		
+		
+		
+	</head>
+	<body>
+	<div class="head-wrap">
+			<div class="head">
+
+				<a href="index.html" class="hover-blue"><img src="../img/head-1.jpg" alt="">E宠商城</a>
+				<span style="color:#000;margin-left:20px;margin-right:5px;">送至 : </span>
+				<div class="dress" style="margin-right:12px">
+					<a href="#">重庆</a><img src="../img/head-2.jpg" alt="">
+					<div class="dizhi">
+						<img src="../img/dizhi.png" alt="" />
+					</div>
+				</div>
+				<a href="#" class="hover-ff6600" style="margin-right:10px;"><img src="../img/head-3.jpg" alt="">E宠就是正品</a>
+				<a href="#" class="hover-blue">评价</a>
+				<a href="#"><span style="color:#ff6600;"><span style="color:#000">(</span>605.1万</span>)</a>
+				<div class="head-right">
+					<a href="denglu.html" class="hover-blue mr-12">[登录]</a>
+					<a href="#" class="hover-blue mr-12">[注册]</a>
+					<div class="shop mr-14">
+						<img src="../img/head-8.jpg" alt="" class="mr-4">
+						<a href="#" class="hover-blue"><span>购物车</span><span style="color:#ff0000">(0)</span></a>
+					</div>
+
+					<div class="mypet">
+						<ul>
+							<li> · 我的订单</li>
+							<li> · VIP俱乐部</li>
+							<li> · 充值得优惠</li>
+						</ul>
+						<img src="../img/head-7.jpg" alt="" class="mr-5">
+						<a href="#" class="hover-blue mr-5">我的E宠</a>
+						<img src="../img/head-6.jpg" alt="" style=" margin-top:10px;" class="mr-12">
+					</div>
+
+					<div class="shoucang mypet">
+						<ul>
+							<li> · 我的收藏</li>
+						</ul>
+						<img src="../img/head-5.jpg" alt="" class="mr-4">
+						<a href="#" class="mr-5">收藏</a>
+						<img src="../img/head-6.jpg" alt="" style=" margin-top:10px;" class="mr-12">
+					</div>
+
+					<div class="mr-12 mypet">
+						<ul>
+							<li style="width:81px"><img src="../img/sjewm.png" alt=""></li>
+						</ul>
+						<img src="../img/head-4.jpg" alt="" class="mr-5">
+						<a href="#" class="hover-blue" style="margin-left:0">手机版</a>
+					</div style="margin-left:12px;">
+					<div>
+
+						<a href="#" class="wtfk">
+							问题反馈
+						</a>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<!--***********************************以上是head************************************-->
+		<div class="banner-wrap">
+			<a class="banner" href="#">
+				<img src="../img/nav.jpg" alt="">
+			</a>
+		</div>
+		<!--***********************************以上是banner************************************-->
+		<div class="header-wrap">
+			<div class="header">
+				<div class="logo">
+					<a href="index.html" class="lo"></a>
+				</div>
+				<form class="search" action="index.html" method="post">
+					<div class="search-form">
+						<input name="keyword" type="text" class="c999">
+
+						<button>搜索</button>
+					</div>
+					<div class="keyword">
+						<label>热门搜索：</label>
+						<a style="color:red" href="https://sale.epet.com/1711/presale.html" target="_blank">11.11爆款预售</a>
+						<span>|</span>
+						<a href="http://list.epet.com/search/main.html?keyword=%E5%90%88%E7%9B%BE%E5%80%8D%E5%AE%89&amp;pet_type=dog&amp;version=2.0.0&amp;attrid=" target="_blank">美国军工技术</a>
+						<span>|</span>
+						<a href="http://list.epet.com/search/main.html?keyword=爱丽思&amp;pet_type=dog&amp;version=2.0.0" target="_blank">爱丽思</a>
+						<span>|</span>
+						<a href="http://list.epet.com/search/main.html?keyword=%E5%8D%A1%E6%AF%94&amp;pet_type=dog&amp;version=2.0.0" target="_blank">卡比高性价比</a>
+						<span>|</span>
+						<a href="http://item.epet.com/100127.html" target="_blank">除臭饼干</a>
+
+					</div>
+
+				</form>
+				<div class="phone">
+				</div>
+				<div class="go-buy">
+					<a class="c666" href="#">购物车(<em id="zs" data-name="cart_num">0</em>)</a>
+				</div>
+			</div>
+		</div>
+	
+	
+		<div class="cart-tit">
+			<h1>
+				<a>
+					<img src="images/cart-logo.png" />
+				</a>
+			</h1>
+			<input type="text" value="搜索:" />
+		</div>
+		<ul class="cart-navl">
+			<li><a href="">购物车 1</a> | </li> 
+			<li><a href="">我的收藏 ？</a> | </li> 
+			<li><a href="">我购买过 ？</a> | </li> 
+			<li><a href="">最近浏览 10</a></li>
+		</ul>
+		
+		<ul id="cart">
+			<li>
+				<input type="checkbox" checked="checked">
+				<img src="images/small-1.jpg">
+				<span>新加坡HappiDoggy 苹果味犬用洁齿骨 50支/盒装</span>
+				<span id="pid10001">
+					<em class="minus">-</em>
+					<input type="" value="1">
+					<em class="plus">+</em>
+				</span><b>￥275.00/件</b>
+			</li>
+		
+		
+		
+		</ul>
+		<div class="settlement">
+			<input type='button' value='结算' id="sett">
+		</div>
+		<div class="worn-wrap">
+			<div class="worn">
+				<div class="worn-tit"><b id="close">&times;</b></div>
+				<span>恭喜你<br>本单免单，购买成功</span>
+				
+			</div>
+			
+		</div>
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>

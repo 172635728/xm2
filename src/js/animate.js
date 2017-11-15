@@ -55,7 +55,7 @@ function animate(ele, obj, callback) {
 		//全都到达目的地 就停止定时器
 		if(flag == true) {
 			clearInterval(ele.timer);
-			console.log('运动结束')
+			
 
 			if(callback) {
 				callback();

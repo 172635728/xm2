@@ -1,0 +1,106 @@
+.main-wrap {
+  width: 100%;
+}
+
+.main-wrap .main {
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.main-wrap .main .main-left {
+  width: 450px;
+  margin-top: 60px;
+  float: left;
+  position: relative;
+  height: 460px;
+}
+
+.main-wrap .main .main-left img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: yellow;
+  left: 15%;
+}
+
+.main-wrap .main .main-right {
+  width: 667px;
+  padding: 40px;
+  margin: 0 0 0 3px;
+  background: #fcfcfc;
+  float: right;
+  height: 604px;
+}
+
+.main-wrap .main .main-right .jiage {
+  margin-top: 25px;
+  padding: 20px;
+  height: 100px;
+}
+
+.main-wrap .main .main-right .cgnum {
+  display: inline-block;
+  border: #b2b2b2 solid 1px;
+  width: 88px;
+  height: 34px;
+}
+
+.main-wrap .main .main-right .cgnum .chgnum {
+  cursor: pointer;
+  height: 32px;
+  line-height: 32px;
+  overflow: hidden;
+  width: 15px;
+  display: block;
+  float: left;
+  border: #fff solid 1px;
+  background: #f3f3f3;
+  text-align: center;
+}
+
+.main-wrap .main .main-right .cgnum .buynum {
+  font-size: 12px;
+  width: 50px;
+  height: 32px;
+  float: left;
+  text-align: center;
+  border: #f3f3f3 solid 1px;
+  background: #fff;
+}
+
+.main-wrap .main .main-right .songhuozhi {
+  height: 36px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.main-wrap .main .main-right .songhuozhi .shdz {
+  border: 1px solid #ddd;
+  padding: 5px 15px 5px 5px;
+  line-height: 20px;
+  width: auto;
+  cursor: pointer;
+  height: 20px;
+  width: 128px;
+  background: #fff;
+  margin-left: 60px;
+}
+
+.main-wrap .main .main-right .jrgwc {
+  padding-top: 10px;
+  margin-top: 50px;
+  width: 667px;
+  height: 56px;
+}
+
+.main-wrap .main .main-right .jrgwc a {
+  height: 56px;
+  width: 190px;
+  border-radius: 5px;
+  background: #78B300;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 56px;
+}

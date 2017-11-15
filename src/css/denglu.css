@@ -1,0 +1,141 @@
+.header-warp {
+  width: 100%;
+}
+
+.header-warp .header {
+  width: 1100px;
+  height: 60px;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.header-warp .header .Loginlink {
+  margin: 13px 5px 0 0;
+}
+
+.main-warp {
+  width: 100%;
+  height: 628px;
+  background: url(../img/denglubg.jpg) no-repeat center;
+}
+
+.main-warp .main {
+  width: 1100px;
+  height: 628px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main-warp .main .denglu {
+  position: absolute;
+  width: 296px;
+  padding: 0 36px 30px;
+  background: #fff;
+  top: 112px;
+  right: 0;
+  height: 374px;
+}
+
+.main-warp .main .denglu .Longintab {
+  height: 68px;
+}
+
+.main-warp .main .denglu .Longintab span {
+  color: #000;
+  border-bottom: #33cb98 solid 1px;
+  height: 67px;
+  line-height: 80px;
+  width: 50%;
+}
+
+.main-warp .main .denglu .yhm {
+  border: #ddd solid 1px;
+  height: 45px;
+  line-height: 45px;
+  margin: 20px 0 0 0;
+  padding: 0 0 0 15px;
+}
+
+.main-warp .main .denglu .yhm .Uderico {
+  background: url(../img/ico.png) no-repeat;
+  width: 23px;
+  height: 19px;
+  background-position: 0 0;
+  vertical-align: middle;
+}
+
+.main-warp .main .denglu .yhm .Userinput {
+  height: 43px;
+  line-height: 43px;
+  width: 244px;
+  border: none;
+  text-indent: 2px;
+}
+
+.main-warp .main .denglu .Loginuser {
+  border: #ddd solid 1px;
+  height: 45px;
+  line-height: 45px;
+  margin: 20px 0 0 0;
+  padding: 0 0 0 15px;
+}
+
+.main-warp .main .denglu .Loginuser .Pwdico {
+  background: url(../img/ico.png) no-repeat;
+  background-position: 0 -28px;
+  width: 23px;
+  height: 19px;
+  vertical-align: middle;
+}
+
+.main-warp .main .denglu .Loginuser .logpass {
+  height: 43px;
+  line-height: 43px;
+  width: 244px;
+  border: none;
+  text-indent: 2px;
+}
+
+.main-warp .main .denglu .Loginbtn {
+  background: #33cb98;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  margin: 20px 0 15px;
+}
+
+.main-warp .main .denglu .Heuzouicolist a {
+  margin-right: 10px;
+}
+
+.main-warp .main .denglu .Uderico {
+  width: 23px;
+  height: 19px;
+  background-position: 0 0;
+  vertical-align: middle;
+  background: url(../img/ico.png) no-repeat;
+}
+
+.main-warp .main .denglu .Weixinico {
+  background-position: 0 -144px;
+}
+
+.main-warp .main .denglu .Qqico {
+  background-position: 0 -86px;
+}
+
+.main-warp .main .denglu .Zhifuico {
+  background-position: 0 -170px;
+}
+
+.footer-wrap {
+  width: 100%;
+}
+
+.footer-wrap .footer {
+  width: 820px;
+  height: 177px;
+  margin: 0 auto;
+  padding: 70px 0;
+}

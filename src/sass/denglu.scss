@@ -1,0 +1,129 @@
+.header-warp{
+    width: 100%;
+    .header{
+        width: 1100px;
+        height: 60px;
+        padding: 30px 0;
+        margin: 0 auto;
+        .Loginlink{
+                margin: 13px 5px 0 0;
+        }
+    }
+}
+
+
+.main-warp{
+    width: 100%;
+    height: 628px;
+    background: url(../img/denglubg.jpg) no-repeat center;
+    .main{
+        width: 1100px;
+        height: 628px;
+        margin: 0 auto;
+        position: relative;
+        .denglu{
+            position: absolute;
+            width: 296px;
+            padding: 0 36px 30px;
+            background: #fff;
+            top: 112px;
+            right: 0;
+            height: 374px;
+            .Longintab{
+                height: 68px;
+                span{
+                        color: #000;
+                    border-bottom: #33cb98 solid 1px;
+                    height: 67px;
+                    line-height: 80px;
+                    width: 50%;
+                    
+                }
+            }
+            .yhm{
+                border: #ddd solid 1px;
+                height: 45px;
+                line-height: 45px;
+                margin: 20px 0 0 0;
+                padding: 0 0 0 15px;
+                .Uderico {
+                    background: url(../img/ico.png) no-repeat;
+                    width: 23px;
+                    height: 19px;
+                    background-position: 0 0;
+                    vertical-align: middle;
+                }
+                .Userinput {
+                    height: 43px;
+                    line-height: 43px;
+                    width: 244px;
+                    border: none;
+                    text-indent: 2px;
+                }
+            }
+            .Loginuser {
+                border: #ddd solid 1px;
+                height: 45px;
+                line-height: 45px;
+                margin: 20px 0 0 0;
+                padding: 0 0 0 15px;
+                .Pwdico {
+                    background: url(../img/ico.png) no-repeat;
+                    background-position: 0 -28px;                       
+                    width: 23px;
+                    height: 19px;                  
+                    vertical-align: middle;
+                }
+                .logpass {
+                    height: 43px;
+                    line-height: 43px;
+                    width: 244px;
+                    border: none;
+                    text-indent: 2px;
+                }
+            }
+            .Loginbtn {
+                background: #33cb98;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 5px;
+                margin: 20px 0 15px;
+            }
+            .Heuzouicolist{
+                a{
+                    margin-right: 10px;
+                }
+            }
+            .Uderico {
+                width: 23px;
+                height: 19px;
+                background-position: 0 0;
+                vertical-align: middle;
+                background: url(../img/ico.png) no-repeat;
+                
+            }
+            .Weixinico{
+                background-position: 0 -144px;
+            }
+            .Qqico {
+                background-position: 0 -86px;
+            }
+            .Zhifuico {
+                background-position: 0 -170px;
+            }
+        }
+    }
+}
+
+
+
+.footer-wrap{
+    width: 100%;
+    .footer{
+        width: 820px;
+        height: 177px;
+        margin: 0 auto;
+        padding: 70px 0;
+    }
+}

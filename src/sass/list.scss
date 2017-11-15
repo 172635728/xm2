@@ -1,0 +1,141 @@
+.inblock{
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+
+
+
+
+.spxq-wrap{
+    width: 100%;
+    height: 2500px;
+    .spxqm{
+        width: 1200px;
+        margin: 0 auto;
+        background: #eee;
+        height: 2500px;
+        .spxq{
+            width: 980px;
+            height: 2500px;
+            float: right;
+            
+            .moren{
+                width: 100%;
+                height: 106px;
+                margin-bottom: 10px;
+                .moren-top{
+                    width: 978px;
+                    height: 55px;
+                    
+                    .xiaoliang{
+                        position: relative;
+                        z-index: 100;
+                        border: 1px solid #ddd; 
+                        .xlleft{
+                            width: 396px;
+                            height: 53px;
+                            float: left;
+                            li{
+                                float: left;
+                                height: 53px; 
+                                border-right: 1px solid #ddd;
+                                display: block;
+                                float: left;
+                                padding: 0 23px 0 18px;
+                                line-height: 53px;
+                                cursor: pointer;
+                                background: url(../img/paixu-ico.png) no-repeat;
+                                background-position: 34px 4px;
+                                &:hover{
+                                    color: #fff;
+                                    background: #53aa5b;
+                                }
+                            }
+                        }
+                        .xright{
+                            padding: 10px;
+                            height: 31px;
+                            overflow: hidden;
+                            span{
+                                height: 31px;
+                                line-height: 31px;
+                            }
+                            a{
+                                width: 58px;
+                                height: 31px;
+                                line-height: 33px;
+                                background: #eee;
+                                padding: 0 10px;
+                                border: 1px solid #ddd;
+                                
+                            }
+                        }
+                    }
+                    
+                }
+                .moren-bottom{
+                       border: 1px solid #ddd; 
+                       border-top: 0;
+                       width: 976px;
+                       height: 53px;
+                       background: #eee;
+                }
+            }
+            .biglist{
+                width: 988px;
+                li{
+                    height: 349px;
+                    width: 215px;
+                    
+                    display: inline;
+                    float: left;
+                    border: 1px solid #e6e6e6;
+                    line-height: 18px;
+                    margin: 5px 10px 10px 0;
+                    overflow: hidden;
+                    background-color: #FFF;
+                    padding: 14px 10px 0;
+                    &:hover{
+                        border: 1px solid #53AA5B;
+                    }
+                    .gimg{
+                            width: 200px;
+                            height: 200px;
+                            display: block;
+                            margin: auto;
+                            background: red;
+                    }
+                    .gtit{
+                            line-height: 17px;
+                            height: 36px;
+                            margin: 10px auto;
+                            font-size: 14px;
+                           
+                    }
+                    .gouwuche{
+                        width: 100px;
+                        height: 30px;
+                        background: #eee;
+                        border: 1px solid #FF6600;
+                        margin: 0 auto;
+                        line-height: 30px;
+                        text-align: center;
+                        margin-top: 5px;
+                    }
+                    .gprice{
+                        text-align: center;
+                    }
+                    em{
+                        font-style: normal;
+                        margin-top: 15px;
+                    }
+                    .hudong{
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
